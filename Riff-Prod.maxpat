@@ -10,9 +10,9 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
+		"rect" : [ 353.0, -947.0, 1699.0, 897.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -198,14 +198,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 28.0, 447.0, 225.0, 22.0 ],
-					"saved_object_attributes" : 					{
-						"autostart" : 1,
-						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
-						"watch" : 1
-					}
-,
 					"text" : "node.script riff.js @autostart 1 @watch 1"
 				}
 
@@ -766,7 +758,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 102.550000000000011, 6.5, 96.5, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 121.0, 8.0, 43.0, 20.0 ],
+					"presentation_rect" : [ 141.0, 8.0, 43.0, 20.0 ],
 					"text" : "RIFF",
 					"textcolor" : [ 0.309803921568627, 0.772549019607843, 0.23921568627451, 1.0 ]
 				}
@@ -779,7 +771,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 6.5, 96.5, 34.0 ],
+					"patching_rect" : [ 10.0, 6.5, 96.5, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 7.0, 8.0, 133.0, 20.0 ],
 					"text" : "SCRIBBLE 4 MAX v1.4",
@@ -843,6 +835,18 @@
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 746.0, 607.0, 40.0, 22.0 ],
 					"text" : "midiin"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-5",
+					"maxclass" : "panel",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -267.499999999999886, -60.5, 1711.0, 846.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -10.0, -12.833333194255829, 1415.0, 763.0 ]
 				}
 
 			}
@@ -968,13 +972,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-77", 0 ],
 					"source" : [ "obj-73", 0 ]
 				}
@@ -1041,23 +1038,9 @@
 ,
 		"dependency_cache" : [ 			{
 				"name" : "_rootOctScale.maxpat",
-				"bootpath" : "~/Desktop/scribbleformax/dist",
-				"patcherrelativepath" : "../scribbleformax/dist",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "api.js",
-				"bootpath" : "~/Desktop/Riff-Prod",
+				"bootpath" : "~/Github/Riff-Prod",
 				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "riff.js",
-				"bootpath" : "~/Desktop/scribbleformax/dist",
-				"patcherrelativepath" : "../scribbleformax/dist",
-				"type" : "TEXT",
+				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
